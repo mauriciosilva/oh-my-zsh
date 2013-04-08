@@ -7,8 +7,17 @@ alias pryr="bundle exec pry -r ./config/environment -r rails/console/app -r rail
 
 alias v='vagrant'
 
+alias vi="vim"
+alias start='be thin start -p 8080'
+
 alias tree='nocorrect tree'
 alias Ack='nocorrect Ack'
+alias ack='nocorrect Ack'
+
+alias cookbook='nocorrect cookbook'
+alias environment='nocrroect environment'
+
+alias role='nocorrect role'
 
 alias be='bundle exec'
 
